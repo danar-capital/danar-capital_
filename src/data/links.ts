@@ -76,4 +76,15 @@ export const SOCIAL_LINKS: LinkItem[] = [
     gradient: "linear-gradient(135deg, rgba(0,30,10,0.92) 0%, rgba(18,120,50,0.82) 100%)",
     external: true,
   },
+  {
+    id: "xtb",
+    label: "سجّل مع شريكنا XTB",
+    sublabel: "افتح حساب حقيقي مجاناً",
+    href: "https://www.xtb.com/ar/live-account/?partnerId=7794172&utm_campaign=7794172&campaignId=31&utm_term=31&utm_content=product_real_account&refType=1&utm_source=pso&utm_medium=affiliate",
+    iconId: "xtb",
+    color: "#E8C84A",
+    glowColor: "rgba(232,200,74,0.25)",
+    gradient: "linear-gradient(135deg, rgba(30,22,0,0.95) 0%, rgba(100,80,0,0.85) 100%)",
+    external: true,
+  },
 ];

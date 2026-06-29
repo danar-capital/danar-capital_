@@ -4,7 +4,7 @@ import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { ArrowLeft } from "lucide-react";
 import { useRef } from "react";
 import type { LinkItem } from "@/data/links";
-import { XIcon, SnapchatIcon, TikTokIcon, TelegramIcon, WhatsAppIcon } from "@/components/SocialIcons";
+import { XIcon, SnapchatIcon, TikTokIcon, TelegramIcon, WhatsAppIcon, XTBIcon } from "@/components/SocialIcons";
 
 const ICON_MAP: Record<string, React.ComponentType<React.SVGProps<SVGSVGElement>>> = {
   x: XIcon,
@@ -12,6 +12,7 @@ const ICON_MAP: Record<string, React.ComponentType<React.SVGProps<SVGSVGElement>
   tiktok: TikTokIcon,
   telegram: TelegramIcon,
   whatsapp: WhatsAppIcon,
+  xtb: XTBIcon,
 };
 
 function PlatformIcon({ link }: { link: LinkItem }) {

@@ -32,6 +32,14 @@ export function TelegramIcon(props: SVGProps<SVGSVGElement>) {
   );
 }
 
+export function XTBIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <path d="M3 3l6 9-6 9h3.5l4.5-6.75L15.5 21H19l-6-9 6-9h-3.5L11 8.75 7.5 3H3z" />
+    </svg>
+  );
+}
+
 export function WhatsAppIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" {...props}>

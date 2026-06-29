@@ -24,7 +24,7 @@ export default function Footer() {
 
       {/* XTB CTA */}
       <a
-        href="https://www.xtb.com/ar"
+        href="https://www.xtb.com/ar/live-account/?partnerId=7794172&utm_campaign=7794172&campaignId=31&utm_term=31&utm_content=product_real_account&refType=1&utm_source=pso&utm_medium=affiliate"
         target="_blank"
         rel="noopener noreferrer"
         className="group flex items-center gap-2 transition-opacity duration-200 hover:opacity-80"
