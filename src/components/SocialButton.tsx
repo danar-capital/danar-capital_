@@ -16,6 +16,9 @@ const ICON_MAP: Record<string, React.ComponentType<React.SVGProps<SVGSVGElement>
 };
 
 function PlatformIcon({ link }: { link: LinkItem }) {
+  if (link.iconId === "xtb") {
+    return <img src="/xtb-logo.png" alt="XTB" style={{ width: 36, height: 36, objectFit: "contain" }} />;
+  }
   const Icon = ICON_MAP[link.iconId];
   if (!Icon) return null;
   return <Icon style={{ width: 20, height: 20, color: link.color, flexShrink: 0 }} />;
